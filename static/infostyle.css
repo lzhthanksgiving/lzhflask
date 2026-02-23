@@ -1,0 +1,206 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    display: block;
+}
+a:hover{
+    scale: 1.05;
+    color: rgb(250, 153, 41);
+}
+#btn_1{
+    color: white;
+}
+#btn_2{
+    color: rgb(250, 153, 41);
+}
+#btn_3{
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    /* background-color:rgba(185, 166, 255, 0.2); */
+    background-color: rgb(86, 115, 175);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur;
+    z-index: 9999;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    position: absolute;
+    width: 9%;
+    height: auto;
+    top: 5%;
+    left: 5%;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 10%;
+    width: 25%;
+    height: 90%;
+}
+.whole{
+    position: relative;
+    width: 100%;
+    background-color: #416ca1;
+    background-image: linear-gradient(180deg,#416ca1,azure,#ffcba4,#416ca1);
+}
+.firstpage{
+    width: 100%;
+    height: 100vh;
+    background-color: #416ca1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 120px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffa600;
+    /* background-image: linear-gradient(180deg,#ffa600,#ff4400); */
+    background-clip: text;
+}
+.secondpart{
+    position: relative;
+    width: 85%;
+    height: 920vh;
+    top: 10%;
+    left: 8%;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color:white;
+}
+.scroll{
+    position: sticky;
+    width: 20%;
+    height: 90vh;
+    top: 13%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.scroll::before{
+    content: "";
+    position: absolute;
+    width: 4.5px;
+    height: 93%;
+    left: -40%;
+    background-image:linear-gradient(antiquewhite,#fd8922);
+}
+.secondtitle{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.75;
+    border-radius: 15px;
+    width: 220px;
+    left: 4%;
+    display: none;
+}
+.secondtitle:hover{
+    background-color:rgb(86, 115, 175);
+    color: aliceblue;
+}
+.small-active{
+    /* background-color:rgb(86, 115, 175); */
+    color: aliceblue;
+    color: #ffa600;
+}
+.big{
+    font-size: 36px;
+    line-height: 1.75;
+    border-radius: 15px;
+    width: 240px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.big:hover{
+    background-color:rgb(86, 115, 175);
+    box-shadow: 3px 3px 8px rgba(56, 54, 54, 0.6);
+    transform: scale(1.05);
+}
+.big-active{
+    background-color:rgb(86, 115, 175);
+    box-shadow: 3px 3px 8px rgba(56, 54, 54, 0.6);
+    transform: scale(1.05);
+}
+.neirong{
+    position: absolute;
+    width: 70%;
+    height: 99.5%;
+    left: 27%;
+    top: 0;
+    background-color:aliceblue;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 30px;
+    padding-right: 8px;
+    border-radius: 15px;
+}
+h1,h2,p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-margin-top: 80px;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+    color: #FFB74D;
+}
+h2{
+    font-size: 30px;
+    color: #283c5c;
+}
+p{
+    color: #334155;
+    font-size: 26px;
+    text-indent: 2em;
+    line-height: 1.75;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin-right: 2.5%;
+}
+.luokuan{
+    height: 4%;
+    width: 25%;
+    position: absolute;
+    bottom: 1%;
+    /* background-color: #A36228; */
+    right: 5%;
+}
+.alien{
+    position: absolute;
+    width: 40%;
+    right: 0;
+}
+.time{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: -5%;
+    right: 0;
+}
+.animation{
+    position: absolute;
+    top: -8%;
+    left: -47%;
+    width: 60%;
+    height: auto;
+    z-index: 2;
+}

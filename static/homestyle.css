@@ -1,0 +1,360 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    display: block;
+}
+a:hover{
+    scale: 1.05;
+    color: rgb(250, 153, 41);
+}
+#btn_1{
+    color: rgb(250, 153, 41);
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color:rgba(185, 166, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur;
+    z-index: 9999;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    position: absolute;
+    width: 9%;
+    height: auto;
+    top: 5%;
+    left: 5%;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 10%;
+    width: 25%;
+    height: 90%;
+}
+.whole{
+    position: relative;
+    /* background-color: azure; */
+    width: 100%;
+    height: 1600vh;
+    overflow: hidden;
+}
+.firstpage{
+    position:relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #416ca1;
+}
+.bigtitle{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    text-align: center;
+    background-image: linear-gradient(180deg,#ffa600,#FF4500);
+    background-clip: text;
+    opacity: 1;
+    z-index: 1;
+    transition: all 0.6s ease;
+}
+.rightcloud{
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    bottom: -50%;
+    right: -38%;
+    z-index: 2;
+}
+.leftcloud{
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    bottom: -30%;
+    left: -52%;
+    z-index: 2;
+}
+.ufo{
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    z-index: 4;
+}
+.ufo2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 4;
+}
+.secondpage{
+    position: relative;
+    width: 100%;
+    height: 300vh;
+    background-image: linear-gradient(180deg,#416ca1,#ffdab9,azure);
+    /* z-index: 0; */
+}
+.taichi{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    width: 50%;
+    height: 17%;
+    z-index: 5;
+}
+.run{
+    position: absolute;
+    top: 10%;
+    right: -60%;
+    z-index: 5;
+}
+.sentence{
+    position: absolute;
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    top: 19%;
+    left: 11%;
+}
+#svg{
+    position: absolute;
+    top: 48%;
+    left: -17%;
+    width: 50%;
+    height: 30%;
+}
+.horizon-1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 16%;
+    bottom: 0%;
+    right: -100%;
+    z-index: 2;
+}
+.horizon-2{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 16%;
+    bottom: 0%;
+    right: -100%;
+    z-index: 2;
+}
+.pict{
+    width:40%;
+    height: 100%;
+    padding: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#school{background-image: url('../image/小孩照片.png');}
+#breakfast{background-image: url('../image/早餐店照片.png');}
+#metro{background-image: url('../image/公交车.png');}
+#play{background-image: url('../image/锻炼.png');}
+.thirdpage{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background-image: linear-gradient(180deg,azure,#f5f5dc61);
+}
+.swing{
+    position: absolute;
+    width: 77%;
+    height: 77%;
+    top: 40%;
+    left: -29%;
+    transform: scaleX(-1);
+    transform-origin: center;
+}
+.tree{
+    position: absolute;
+    top: -24%;
+    width: 200%;
+    height: 142%;
+    right: -58%;
+    z-index: 3;
+}
+.cat{
+    cursor: pointer;
+    position: absolute;
+    width: 38%;
+    height: 38%;
+    top: 81%;
+    right: -8%;
+    z-index: 6;
+}
+.poem{
+    position: absolute;
+    font-size: 52px;
+    line-height: 1.5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #556b2fdd;
+    width: 100%;
+    text-align: center;
+    top: 77%;
+    background: radial-gradient(circle, rgba(254, 228, 181, 0.13) 0%, rgba(255,255,255,0) 70%);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+#svg2{
+    position: absolute;
+    top: 37%;
+    width: 100%;
+    height: 70%;
+    z-index: 5;
+}
+.ufo3{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 5;
+    opacity: 0;
+}
+.fourthpage{
+    position: relative;
+    width: 100%;
+    height: 1000vh;
+    background-image: linear-gradient(180deg,#f5f5dc61,#ffcba4,#2c3e50);
+}
+.frontscene{
+    position: absolute;
+    bottom: 80%;
+    width: 100%;
+    height: 100vh;
+}
+.people{
+    position: absolute;
+    bottom: 0%;
+    opacity: 1;
+}
+#woman{
+    left: 0;
+    width: 90%;
+    height: 63%;
+    z-index: 6;
+}
+#man{
+    right: 0%;
+    width: 80%;
+    height: 78%;
+    z-index: 7;
+}
+#bagman{
+    left: 60%;
+    width: 30%;
+    height: 18%;
+    z-index: 3;
+}
+#blady{
+    left: 7%;
+    width: 45%;
+    height: 41%;
+    z-index: 5;
+}
+#vegetable{
+    left: 80%;
+    width: 30%;
+    height: 28%;
+    z-index: 4;
+}
+.final{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 700px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#fdd6af;
+    text-align: center;
+    background-clip: text;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s ease;
+}
+.wenzi{
+    position: absolute;
+    font-size: 56px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #5D4037;
+    top: 55%;
+    left: 50%;
+}
+.wenzi>span{
+    color: #fff;
+}
+.wenzi2{
+    position: absolute;
+    font-size: 56px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 75%;
+    left: 27%;
+    color: #fff;
+}
+.wenzi2>span{
+    color: #FFA726;
+}
+.lamp{
+    position: absolute;
+    bottom: -5%;
+    left: 26%;
+    transform: scaleX(-1);
+    display: block;
+    cursor: pointer;
+    user-select: none;       /* 禁止选中图片（防止变成文本光标） */
+    pointer-events: auto;    /* 强制开启点击事件 */
+    z-index: 20; 
+}
+.light{
+    position: absolute;
+    bottom: 5.07%;
+    left: 38.5%;
+    width: 400px;
+    height: 300px;
+    clip-path: polygon(35% 0%, 65% 0%, 100% 100%, 0% 100%);
+    background: linear-gradient(to bottom,rgba(255, 230, 150, 0.8),rgba(255, 230, 150, 0));
+    filter: blur(15px);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.goodbye{
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    font-size: 400px;
+    color: rgba(255, 230, 150, 0.8);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#svg3{
+    position: absolute;
+    bottom: 6%;
+    right: -6%;
+    width: 30%;
+    height: 4%;
+}
+.ufo4{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+}
