@@ -170,10 +170,10 @@ header{
     background-position: center;
     background-size: cover;
 }
-#school{background-image: url('../image/小孩照片.png');}
-#breakfast{background-image: url('../image/早餐店照片.png');}
-#metro{background-image: url('../image/公交车.png');}
-#play{background-image: url('../image/锻炼.png');}
+#school{background-image: url('image/小孩照片.png');}
+#breakfast{background-image: url('image/早餐店照片.png');}
+#metro{background-image: url('image/公交车.png');}
+#play{background-image: url('image/锻炼.png');}
 .thirdpage{
     position: relative;
     width: 100%;

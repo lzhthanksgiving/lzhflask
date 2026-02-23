@@ -90,7 +90,7 @@ header{
     width: 100%;
     height: 85%;
     margin-top: 1.9%;
-    background-image: url(../image/team.png);
+    background-image: url(image/team.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,22 +143,22 @@ header{
     border-top-right-radius: 15px;
 }
 #t1{
-    background-image: url(../image/lzh.png);
+    background-image: url(image/lzh.png);
 }
 #t2{
-    background-image: url(../image/qwen.png);
+    background-image: url(image/qwen.png);
 }
 #t3{
-    background-image: url(../image/豆包.png);
+    background-image: url(image/豆包.png);
 }
 #t4{
-    background-image: url(../image/chatgpt.png);
+    background-image: url(image/chatgpt.png);
 }
 #t5{
-    background-image: url(../image/抠抠图.png);
+    background-image: url(image/抠抠图.png);
 }
 #t6{
-    background-image: url(../image/px.png);
+    background-image: url(image/px.png);
 }
 .name{
     font-size: 55px;
